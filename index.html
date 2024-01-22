@@ -9,18 +9,24 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
-    <header>
-        <div class="logo"><span>M</span>atheus</div>
-        <ul class="navlist">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#services0">Serviços</a></li>
-            <li><a href="#skills" >Skill</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contato</a></li>
-        </ul>
-        <div class="" id="menu-icon"><i class='bx bx-menu'></i></div>
-    </header>
+    <input type="checkbox" class="close-menu" id="close-menu" aria-pressed="true" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu">
+        <div class="menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services0">Serviços</a></li>
+                    <li><a href="#skills" >Skill</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    
     <section class="home" id="home">
         <div class="home-content">
             <h3>Olá, me chamo</h3>
