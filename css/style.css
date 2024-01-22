@@ -151,23 +151,6 @@ span{
     box-shadow: 0 0 20px #0ef;
 }
 
-.btn-box {
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-        0 0 25px #0ef;
-}
-
 .about{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -217,14 +200,6 @@ span{
 }
 
 
-
-
-.btn-box:hover {
-    background: #081b29;
-    color: #0ef;
-    box-shadow: 0 0 20px #0ef;
-}
-
 .container{
     padding: 90px;
 }
@@ -248,7 +223,7 @@ span{
 .section-services{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:normal;
     flex-wrap: wrap;
     grid-gap: 2rem;
 }
@@ -269,29 +244,7 @@ span{
 .services-box:hover{
     transform: translateY(-.7rem);
 }
-.read{
-    width: auto;
-    justify-content: center;
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-                0 0 25px #0ef;
-}
-.read:hover{
-    background: #081b29;
-    color: #0ef;
-    box-shadow: 0 0 20px #0ef;
-}
+
 .service-icon{
     border: 2px solid #fff;
     padding: 1rem;
